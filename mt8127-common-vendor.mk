@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/memtrack.mt8127.so:system/lib/hw/memtrack.mt8127.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
@@ -33,8 +37,13 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/amazon/mt8127-common/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/amazon/mt8127-common/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmp2dec_sb.ca7.so:system/lib/libmp2dec_sb.ca7.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/amazon/mt8127-common/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/amazon/mt8127-common/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/mt8127-common/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram.so:system/lib/libnvram.so \
@@ -42,4 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so
+    vendor/amazon/mt8127-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so
