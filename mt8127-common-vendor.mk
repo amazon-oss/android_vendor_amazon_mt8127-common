@@ -18,6 +18,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/amazon/mt8127-common/proprietary/bin/pq:system/bin/pq \
     vendor/amazon/mt8127-common/proprietary/bin/rpmb_svc:system/bin/rpmb_svc \
+    vendor/amazon/mt8127-common/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+    vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
