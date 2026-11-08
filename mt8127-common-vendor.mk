@@ -22,10 +22,21 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/memtrack.mt8127.so:system/lib/hw/memtrack.mt8127.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/mt8127-common/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/amazon/mt8127-common/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/amazon/mt8127-common/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/amazon/mt8127-common/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
+    vendor/amazon/mt8127-common/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/amazon/mt8127-common/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
